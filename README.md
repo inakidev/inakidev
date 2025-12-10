@@ -57,15 +57,6 @@ A direct application of my security studies, this tool helps developers identify
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=inakidev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Inaki's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=inakidev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
 ### 📫 Let's Connect
 
 I'm always open to discussing secure architecture, AI integration, or new job opportunities.
