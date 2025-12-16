@@ -62,4 +62,4 @@ A direct application of my security studies, this tool helps developers identify
 I'm always open to discussing secure architecture, AI integration, or new job opportunities.
 
 * 📧 **Email:** [iawebdeveloperarg@gmail.com](mailto:iawebdeveloperarg@gmail.com)
-* 💼 **LinkedIn:** [Iñaki Nicolás Antonena]((https://www.linkedin.com/in/ia-dev/))
+* 💼 **LinkedIn:** [Iñaki Nicolás Antonena](https://www.linkedin.com/in/ia-dev/)
