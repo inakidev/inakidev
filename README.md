@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Iñaki!
 
-**Full Stack Developer | Security-First Engineer | AI Workflow Integrator**
+**Software Engineer | Full Stack Developer | Security-First Engineer | AI Workflow Integrator**
 
 Based in **Chubut, Argentina 🇦🇷**, I specialize in building high-fidelity, secure web applications. My background in freelance development has honed my ability to translate complex business requirements into deployable, pixel-perfect solutions using **React** and **Python**.
 
