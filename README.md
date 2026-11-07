@@ -57,4 +57,7 @@ A full stack app (FastAPI + React 19) that checks a site's server configuration,
 
 ## Let's connect
 
-I'm
+I'm happy to talk about secure architecture, AI integration or new opportunities.
+
+- 📧 [iadev.antonena@gmail.com](mailto:iadev.antonena@gmail.com)
+- 💼 [LinkedIn: Iñaki Nicolás Antonena](https://www.linkedin.com/in/ia-dev/)
