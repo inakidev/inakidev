@@ -1,65 +1,60 @@
-### Hi there 👋, I'm Iñaki!
+<div align="center">
 
-**Software Engineer | Full Stack Developer | Security-First Engineer | AI Workflow Integrator**
+# Iñaki Nicolás Antonena
 
-Based in **Chubut, Argentina 🇦🇷**, I specialize in building high-fidelity, secure web applications. My background in freelance development has honed my ability to translate complex business requirements into deployable, pixel-perfect solutions using **React** and **Python**.
+**Full Stack Engineer | AI Agents & Application Security**
 
-I don't just write code; I design scalable architectures with a focus on security hardening and performance optimization.
+Rawson, Chubut, Argentina 🇦🇷 · UTC-3 · Open to remote work (US, EU, LATAM)
 
----
+[LinkedIn](https://www.linkedin.com/in/ia-dev/) · [Email](mailto:iadev.antonena@gmail.com)
 
-### ⚡ Engineering Philosophy
+</div>
 
-My workflow is built on three core pillars that differentiate my development process:
+## About
 
-* **🤖 AI-Augmented Development:** I leverage LLM workflows (like Claude) to handle boilerplate and accelerate rapid prototyping. This reduces **Time-to-Market by ~40%**, allowing me to dedicate more time to critical architecture and complex logic rather than repetitive coding.
+I build full stack web applications and LLM-based agents, and I secure them. I have 3+ years in web development, the last two full stack with TypeScript (React, Next.js, Node.js) and Python.
 
-* **🛡️ Security by Design:** I apply a "Security-First" strategy from day one. By implementing strict code reviews and hardening techniques, I actively mitigate **OWASP Top 10** vulnerabilities (such as SQL Injection and XSS) before deployment, ensuring robust protection for end-users.
+Recent work includes enterprise integrations on Azure Functions and Power Platform, a RAG-based triage agent and booking platform for healthcare clinics, and open-source security tooling for AI coding agents. I'm studying a Bachelor's in Cyberdefense (Secure Coding & Cyber Risk).
 
-* **🤝 Squad-Ready Standards:** Although I have extensive experience working autonomously, I adhere strictly to industry standards—**Git Flow, Semantic Commits, and technical documentation**. This ensures my code is clean, maintainable, and allows for immediate, seamless integration into larger development squads.
+## Featured projects
 
----
+### 🛡️ [agentsapper](https://github.com/inakidev/agentsapper) · open-source security CLI
 
-### 🛠️ The Stack
+![npm](https://img.shields.io/npm/v/agentsapper?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
-**Core Development:**
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</p>
+Scans an untrusted repository for what it can execute or inject **before** an AI coding agent (Claude Code, Cursor) opens it.
 
-**Environment & Tools:**
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
-</p>
+- 22 deterministic rules across git, filesystem, agent config, instruction files, IDE and package scripts. No LLM, zero runtime dependencies.
+- Output in text, JSON or SARIF, so it plugs into CI and GitHub code scanning.
+- Tested with 39 malicious fixtures from published attacks, 5,000 generated git configs compared against git's own parser, and 16 popular repositories as a false-positive check.
 
----
+```sh
+npx agentsapper ./downloaded-repo
+```
 
-### 🔭 Featured Project
+### 🔍 [Sentry-VulnScan](https://github.com/inakidev/sentry-vulnscan) · passive web vulnerability scanner
 
-#### 🛡️ [Sentry-VulnScan](https://github.com/inakidev/sentry-vulnscan)
-*A passive web vulnerability scanner built with FastAPI & React.*
+A full stack app (FastAPI + React 19) that checks a site's server configuration, SSL/TLS certificate and security headers (CSP, HSTS, X-Frame-Options) without intrusive payloads, and returns a risk score. The backend includes SSRF protection and Cloudflare Turnstile verification.
 
-A direct application of my security studies, this tool helps developers identify server misconfigurations and missing security headers (CSP, HSTS) without aggressive scanning. It combines a **Python** backend for analysis with a responsive **React** dashboard.
+## How I work
 
----
+- **Security by design.** I review code against the OWASP Top 10 from the start, not at the end.
+- **AI-assisted, human-reviewed.** I use LLM tooling (Claude Code) to move faster, and I keep the specs, architecture decisions and review in my hands.
+- **Team-ready standards.** Git Flow, semantic commits and written technical documentation, including guides for non-technical users.
 
-### 🚀 Current Focus
+## Stack
 
-* **Freelance:** Delivering performance-optimized web platforms and AI integrations.
-* **Learning:** Advanced AppSec strategies and Python backend architecture.
-* **Goal:** Seeking a **Remote Full-Time Developer** role. I bring the autonomy of a freelancer with the discipline and standards of a modern day engineer.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
----
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![Microsoft Azure](https://img.shields.io/badge/Azure_Functions-0078D4?style=flat-square) ![Power Platform](https://img.shields.io/badge/Power_Platform-742774?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-### 📫 Let's Connect
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-I'm always open to discussing secure architecture, AI integration, or new job opportunities.
+## Currently
 
-* 📧 **Email:** [iawebdeveloperarg@gmail.com](mailto:iawebdeveloperarg@gmail.com)
-* 💼 **LinkedIn:** [Iñaki Nicolás Antonena](https://www.linkedin.com/in/ia-dev/)
+- Building security tooling for AI coding agents and agentic workflows.
+- Open to **remote full-time roles** and **freelance projects**: AI agents and automation, web platforms, and security reviews.
+
+## Let's connect
+
+I'm
